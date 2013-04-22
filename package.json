@@ -1,0 +1,7 @@
+{
+    "name": "tm2-default-fonts",
+    "version": "0.0.1",
+    "description": "Default font library for TM2.",
+    "private": true,
+    "main": "./package.json"
+}
