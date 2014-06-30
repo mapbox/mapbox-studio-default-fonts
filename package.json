@@ -1,7 +1,7 @@
 {
-    "name": "tm2-default-fonts",
+    "name": "mapbox-studio-default-fonts",
     "version": "0.0.1",
-    "description": "Default font library for TM2.",
+    "description": "Default font library for Mapbox Studio.",
     "private": true,
     "main": "./package.json"
 }
