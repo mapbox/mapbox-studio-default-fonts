@@ -1,6 +1,6 @@
 {
     "name": "mapbox-studio-default-fonts",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "Default font library for Mapbox Studio.",
     "private": true,
     "main": "./package.json"
