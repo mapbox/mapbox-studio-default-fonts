@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Default font library for Mapbox Studio.",
   "private": true,
-  "main": "./package.json",
+  "main": "index.js",
   "scripts": {
     "build": "node bin/generate-font-families.js"
   },
