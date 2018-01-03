@@ -3,13 +3,6 @@ const path = require('path');
 const fs = require('fs');
 
 mapnik.register_fonts('./', { recurse: true });
-
-// Overrides are custom exceptions -- regexes for known font family
-// names that cannot otherwise be autodetected.
-const overrides = {
-    Call: /^Call (One|Two|Three|Four|Five|Six|Seven|Eight|Nine)/,
-    Komika: /^Komika (Hand|Parch|Title)/
-};
 // Keywords are ordered by "display priority" -- e.g. fonts
 // containing earlier words should be favored for being a preview
 // of the family as a whole.
@@ -52,16 +45,6 @@ function getFontFamilies() {
     fonts.sort();
     let level1 = {};
     for (let i = 0; i < fonts.length; i++) {
-        let overridden = false;
-        for (let family in overrides) {
-            if (overrides[family].test(fonts[i])) {
-                level1[family] = level1[family] || [];
-                level1[family].push(fonts[i]);
-                overridden = true;
-            }
-        }
-        if (overridden) continue;
-
         let parts = fonts[i].split(' ');
         while (parts.length) {
             let word = parts[parts.length - 1];
@@ -98,7 +81,6 @@ function getFontFamilies() {
         }
     }
     for (let k in level1) {
-        if (overrides[k]) continue;
         level1[k].sort(famsort);
     }
 
