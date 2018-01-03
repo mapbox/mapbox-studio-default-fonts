@@ -1,1 +1,1 @@
-module.exports = require('./generate-font-families');
+module.exports = require('./font_families.json');
