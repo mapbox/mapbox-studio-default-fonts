@@ -126,9 +126,11 @@
     "IM FELL DW Pica Regular",
     "IM FELL DW Pica Italic"
   ],
-  "Knewave": [
-    "Knewave Regular",
+  "Knewave Outline": [
     "Knewave Outline Regular"
+  ],
+  "Knewave": [
+    "Knewave Regular"
   ],
   "Lato": [
     "Lato Regular",
@@ -206,17 +208,6 @@
     "Noto Sans Arabic SemiCondensed Thin",
     "Noto Sans Arabic SemiCondensed ExtraLight"
   ],
-  "Noto Sans CJK SC": [
-    "Noto Sans CJK SC Medium",
-    "Noto Sans CJK SC Regular",
-    "Noto Sans CJK SC Bold",
-    "Noto Sans CJK SC Black",
-    "Noto Sans CJK SC Light",
-    "Noto Sans CJK SC Thin"
-  ],
-  "Noto Sans CJK SC DemiLight": [
-    "Noto Sans CJK SC DemiLight"
-  ],
   "Noto Sans Hebrew": [
     "Noto Sans Hebrew SemiCondensed",
     "Noto Sans Hebrew SemiCondensed Medium",
@@ -227,10 +218,6 @@
     "Noto Sans Hebrew SemiCondensed Light",
     "Noto Sans Hebrew SemiCondensed Thin",
     "Noto Sans Hebrew SemiCondensed ExtraLight"
-  ],
-  "Noto Sans Mono CJK SC": [
-    "Noto Sans Mono CJK SC Regular",
-    "Noto Sans Mono CJK SC Bold"
   ],
   "Noto Sans": [
     "Noto Sans SemiCondensed",
@@ -251,15 +238,6 @@
     "Noto Sans SemiCondensed Light Italic",
     "Noto Sans SemiCondensed Thin Italic",
     "Noto Sans SemiCondensed ExtraLight Italic"
-  ],
-  "Noto Serif CJK SC": [
-    "Noto Serif CJK SC Medium",
-    "Noto Serif CJK SC Regular",
-    "Noto Serif CJK SC SemiBold",
-    "Noto Serif CJK SC Bold",
-    "Noto Serif CJK SC Black",
-    "Noto Serif CJK SC Light",
-    "Noto Serif CJK SC ExtraLight"
   ],
   "Old Standard TT": [
     "Old Standard TT Regular",

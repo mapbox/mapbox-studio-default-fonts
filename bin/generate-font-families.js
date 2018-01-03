@@ -36,8 +36,7 @@ const keywords = [
     'hairline',
     'italic',
     'oblique',
-    'dash',
-    'outline'
+    'dash'
 ];
 
 function getFontFamilies() {
