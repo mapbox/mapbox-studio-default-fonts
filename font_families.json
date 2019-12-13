@@ -208,6 +208,11 @@
     "Noto Sans Arabic SemiCondensed Thin",
     "Noto Sans Arabic SemiCondensed ExtraLight"
   ],
+  "Noto Sans CJK JP": [
+    "Noto Sans CJK JP Medium",
+    "Noto Sans CJK JP Regular",
+    "Noto Sans CJK JP Bold"
+  ],
   "Noto Sans Hebrew": [
     "Noto Sans Hebrew SemiCondensed",
     "Noto Sans Hebrew SemiCondensed Medium",
