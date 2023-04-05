@@ -41,17 +41,13 @@
     "Barlow ExtraBold",
     "Barlow Black",
     "Barlow Light",
-    "Barlow Thin",
-    "Barlow ExtraLight",
     "Barlow Italic",
     "Barlow Medium Italic",
     "Barlow SemiBold Italic",
     "Barlow Bold Italic",
     "Barlow ExtraBold Italic",
     "Barlow Black Italic",
-    "Barlow Light Italic",
-    "Barlow Thin Italic",
-    "Barlow ExtraLight Italic"
+    "Barlow Light Italic"
   ],
   "Caveat": [
     "Caveat Regular",
@@ -152,13 +148,11 @@
     "Inter Bold",
     "Inter Black",
     "Inter Light",
-    "Inter Thin",
     "Inter Italic",
     "Inter Medium Italic",
     "Inter Bold Italic",
     "Inter Black Italic",
-    "Inter Light Italic",
-    "Inter Thin Italic"
+    "Inter Light Italic"
   ],
   "Knewave Outline": [
     "Knewave Outline Regular"
@@ -203,8 +197,7 @@
     "Manrope SemiBold",
     "Manrope Bold",
     "Manrope ExtraBold",
-    "Manrope Light",
-    "Manrope ExtraLight"
+    "Manrope Light"
   ],
   "Merriweather": [
     "Merriweather Regular",
@@ -294,14 +287,12 @@
     "Nunito Sans ExtraBold",
     "Nunito Sans Black",
     "Nunito Sans Light",
-    "Nunito Sans ExtraLight",
     "Nunito Sans Italic",
     "Nunito Sans SemiBold Italic",
     "Nunito Sans Bold Italic",
     "Nunito Sans ExtraBold Italic",
     "Nunito Sans Black Italic",
-    "Nunito Sans Light Italic",
-    "Nunito Sans ExtraLight Italic"
+    "Nunito Sans Light Italic"
   ],
   "Old Standard TT": [
     "Old Standard TT Regular",
@@ -401,17 +392,13 @@
     "Poppins ExtraBold",
     "Poppins Black",
     "Poppins Light",
-    "Poppins Thin",
-    "Poppins ExtraLight",
     "Poppins Italic",
     "Poppins Medium Italic",
     "Poppins SemiBold Italic",
     "Poppins Bold Italic",
     "Poppins ExtraBold Italic",
     "Poppins Black Italic",
-    "Poppins Light Italic",
-    "Poppins Thin Italic",
-    "Poppins ExtraLight Italic"
+    "Poppins Light Italic"
   ],
   "Press Start 2P": [
     "Press Start 2P Regular"
