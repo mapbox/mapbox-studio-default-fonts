@@ -7,6 +7,6 @@
     "build": "node bin/generate-font-families.js"
   },
   "dependencies": {
-    "mapnik": "^3.6.2"
+    "mapnik": "^4.5.9"
   }
 }
