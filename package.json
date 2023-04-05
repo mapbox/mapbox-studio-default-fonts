@@ -8,5 +8,8 @@
   },
   "dependencies": {
     "mapnik": "^4.5.9"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.3.1"
   }
 }
