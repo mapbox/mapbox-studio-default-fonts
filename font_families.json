@@ -33,6 +33,22 @@
     "Asap SemiBold Italic",
     "Asap Bold Italic"
   ],
+  "Barlow": [
+    "Barlow Medium",
+    "Barlow Regular",
+    "Barlow SemiBold",
+    "Barlow Bold",
+    "Barlow ExtraBold",
+    "Barlow Black",
+    "Barlow Light",
+    "Barlow Italic",
+    "Barlow Medium Italic",
+    "Barlow SemiBold Italic",
+    "Barlow Bold Italic",
+    "Barlow ExtraBold Italic",
+    "Barlow Black Italic",
+    "Barlow Light Italic"
+  ],
   "Caveat": [
     "Caveat Regular",
     "Caveat Bold"
@@ -47,36 +63,6 @@
     "Crimson Bold",
     "Crimson BoldItalic",
     "Crimson Italic"
-  ],
-  "DejaVu Math TeX Gyre": [
-    "DejaVu Math TeX Gyre Regular"
-  ],
-  "DejaVu Sans": [
-    "DejaVu Sans Book",
-    "DejaVu Sans Bold",
-    "DejaVu Sans Condensed",
-    "DejaVu Sans Condensed Bold",
-    "DejaVu Sans ExtraLight",
-    "DejaVu Sans Oblique",
-    "DejaVu Sans Bold Oblique",
-    "DejaVu Sans Condensed Oblique",
-    "DejaVu Sans Condensed Bold Oblique"
-  ],
-  "DejaVu Sans Mono": [
-    "DejaVu Sans Mono Book",
-    "DejaVu Sans Mono Bold",
-    "DejaVu Sans Mono Oblique",
-    "DejaVu Sans Mono Bold Oblique"
-  ],
-  "DejaVu Serif": [
-    "DejaVu Serif Book",
-    "DejaVu Serif Bold",
-    "DejaVu Serif Condensed",
-    "DejaVu Serif Condensed Bold",
-    "DejaVu Serif Italic",
-    "DejaVu Serif Bold Italic",
-    "DejaVu Serif Condensed Italic",
-    "DejaVu Serif Condensed Bold Italic"
   ],
   "Droid Serif": [
     "Droid Serif Regular",
@@ -126,6 +112,18 @@
     "IM FELL DW Pica Regular",
     "IM FELL DW Pica Italic"
   ],
+  "Inter": [
+    "Inter Medium",
+    "Inter Regular",
+    "Inter Bold",
+    "Inter Black",
+    "Inter Light",
+    "Inter Italic",
+    "Inter Medium Italic",
+    "Inter Bold Italic",
+    "Inter Black Italic",
+    "Inter Light Italic"
+  ],
   "Knewave Outline": [
     "Knewave Outline Regular"
   ],
@@ -163,6 +161,14 @@
   "League Spartan": [
     "League Spartan Bold"
   ],
+  "Manrope": [
+    "Manrope Medium",
+    "Manrope Regular",
+    "Manrope SemiBold",
+    "Manrope Bold",
+    "Manrope ExtraBold",
+    "Manrope Light"
+  ],
   "Merriweather": [
     "Merriweather Regular",
     "Merriweather Bold",
@@ -183,8 +189,8 @@
     "Montserrat Light",
     "Montserrat Thin",
     "Montserrat ExtraLight",
-    "Montserrat Medium Italic",
     "Montserrat Italic",
+    "Montserrat Medium Italic",
     "Montserrat SemiBold Italic",
     "Montserrat Bold Italic",
     "Montserrat ExtraBold Italic",
@@ -243,6 +249,20 @@
     "Noto Sans SemiCondensed Light Italic",
     "Noto Sans SemiCondensed Thin Italic",
     "Noto Sans SemiCondensed ExtraLight Italic"
+  ],
+  "Nunito Sans": [
+    "Nunito Sans Regular",
+    "Nunito Sans SemiBold",
+    "Nunito Sans Bold",
+    "Nunito Sans ExtraBold",
+    "Nunito Sans Black",
+    "Nunito Sans Light",
+    "Nunito Sans Italic",
+    "Nunito Sans SemiBold Italic",
+    "Nunito Sans Bold Italic",
+    "Nunito Sans ExtraBold Italic",
+    "Nunito Sans Black Italic",
+    "Nunito Sans Light Italic"
   ],
   "Old Standard TT": [
     "Old Standard TT Regular",
@@ -334,6 +354,22 @@
     "Playfair Display SC Bold Italic",
     "Playfair Display SC Black Italic"
   ],
+  "Poppins": [
+    "Poppins Medium",
+    "Poppins Regular",
+    "Poppins SemiBold",
+    "Poppins Bold",
+    "Poppins ExtraBold",
+    "Poppins Black",
+    "Poppins Light",
+    "Poppins Italic",
+    "Poppins Medium Italic",
+    "Poppins SemiBold Italic",
+    "Poppins Bold Italic",
+    "Poppins ExtraBold Italic",
+    "Poppins Black Italic",
+    "Poppins Light Italic"
+  ],
   "Press Start 2P": [
     "Press Start 2P Regular"
   ],
@@ -350,8 +386,8 @@
     "Raleway Light",
     "Raleway Thin",
     "Raleway ExtraLight",
-    "Raleway Medium Italic",
     "Raleway Italic",
+    "Raleway Medium Italic",
     "Raleway SemiBold Italic",
     "Raleway Bold Italic",
     "Raleway ExtraBold Italic",

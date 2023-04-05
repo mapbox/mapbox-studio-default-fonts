@@ -1,8 +1,7 @@
 const mapnik = require('mapnik');
 const path = require('path');
-const fs = require('fs');
+const fs = require('fs').promises;
 
-mapnik.register_fonts('./', { recurse: true });
 // Keywords are ordered by "display priority" -- e.g. fonts
 // containing earlier words should be favored for being a preview
 // of the family as a whole.
@@ -39,7 +38,13 @@ const keywords = [
     'dash'
 ];
 
-function getFontFamilies() {
+async function getFontFamilies() {
+    const dirs = (await fs.readdir(`./`))
+        .filter(d => !d.match(/^\.|node_modules/))
+    for (const dir of dirs) {
+        mapnik.register_fonts(path.join('./', dir), { recurse: true })
+    }
+
     const fonts = mapnik.fonts();
     fonts.sort();
     let level1 = {};
@@ -101,10 +106,8 @@ function getFontFamilies() {
         return ascore - bscore;
     }
 
-    fs.writeFile('font_families.json', JSON.stringify(level1, null, 2), err => {
-        if (err) throw err;
-        console.log('complete');
-    });
+    await fs.writeFile('font_families.json', JSON.stringify(level1, null, 2));
+    console.log('complete');
 }
 
 getFontFamilies();
