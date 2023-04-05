@@ -348,6 +348,26 @@
     "Playfair Display SC Bold Italic",
     "Playfair Display SC Black Italic"
   ],
+  "Poppins": [
+    "Poppins Medium",
+    "Poppins Regular",
+    "Poppins SemiBold",
+    "Poppins Bold",
+    "Poppins ExtraBold",
+    "Poppins Black",
+    "Poppins Light",
+    "Poppins Thin",
+    "Poppins ExtraLight",
+    "Poppins Italic",
+    "Poppins Medium Italic",
+    "Poppins SemiBold Italic",
+    "Poppins Bold Italic",
+    "Poppins ExtraBold Italic",
+    "Poppins Black Italic",
+    "Poppins Light Italic",
+    "Poppins Thin Italic",
+    "Poppins ExtraLight Italic"
+  ],
   "Press Start 2P": [
     "Press Start 2P Regular"
   ],
