@@ -33,6 +33,26 @@
     "Asap SemiBold Italic",
     "Asap Bold Italic"
   ],
+  "Barlow": [
+    "Barlow Medium",
+    "Barlow Regular",
+    "Barlow SemiBold",
+    "Barlow Bold",
+    "Barlow ExtraBold",
+    "Barlow Black",
+    "Barlow Light",
+    "Barlow Thin",
+    "Barlow ExtraLight",
+    "Barlow Italic",
+    "Barlow Medium Italic",
+    "Barlow SemiBold Italic",
+    "Barlow Bold Italic",
+    "Barlow ExtraBold Italic",
+    "Barlow Black Italic",
+    "Barlow Light Italic",
+    "Barlow Thin Italic",
+    "Barlow ExtraLight Italic"
+  ],
   "Caveat": [
     "Caveat Regular",
     "Caveat Bold"
