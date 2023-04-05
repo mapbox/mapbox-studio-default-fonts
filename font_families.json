@@ -126,6 +126,20 @@
     "IM FELL DW Pica Regular",
     "IM FELL DW Pica Italic"
   ],
+  "Inter": [
+    "Inter Medium",
+    "Inter Regular",
+    "Inter Bold",
+    "Inter Black",
+    "Inter Light",
+    "Inter Thin",
+    "Inter Italic",
+    "Inter Medium Italic",
+    "Inter Bold Italic",
+    "Inter Black Italic",
+    "Inter Light Italic",
+    "Inter Thin Italic"
+  ],
   "Knewave Outline": [
     "Knewave Outline Regular"
   ],
