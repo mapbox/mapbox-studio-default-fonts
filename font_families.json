@@ -287,6 +287,22 @@
     "Noto Sans SemiCondensed Thin Italic",
     "Noto Sans SemiCondensed ExtraLight Italic"
   ],
+  "Nunito Sans": [
+    "Nunito Sans Regular",
+    "Nunito Sans SemiBold",
+    "Nunito Sans Bold",
+    "Nunito Sans ExtraBold",
+    "Nunito Sans Black",
+    "Nunito Sans Light",
+    "Nunito Sans ExtraLight",
+    "Nunito Sans Italic",
+    "Nunito Sans SemiBold Italic",
+    "Nunito Sans Bold Italic",
+    "Nunito Sans ExtraBold Italic",
+    "Nunito Sans Black Italic",
+    "Nunito Sans Light Italic",
+    "Nunito Sans ExtraLight Italic"
+  ],
   "Old Standard TT": [
     "Old Standard TT Regular",
     "Old Standard TT Bold",
