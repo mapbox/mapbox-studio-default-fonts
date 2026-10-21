@@ -4,12 +4,13 @@
   "description": "Default font library for Mapbox Studio.",
   "main": "index.js",
   "scripts": {
-    "build": "node bin/generate-font-families.js"
-  },
-  "dependencies": {
-    "mapnik": "^4.5.9"
+    "build": "npm install --no-save mapnik@^4.5.9 && node bin/generate-font-families.js"
   },
   "devDependencies": {
     "node-fetch": "^3.3.1"
-  }
+  },
+  "files": [
+    "index.js",
+    "font_families.json"
+  ]
 }
