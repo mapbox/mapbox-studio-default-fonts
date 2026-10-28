@@ -23,6 +23,8 @@ jobs:
   publish:
     name: "Publish ${{ github.ref_name }}"
     runs-on: ubuntu-latest
+    # npm's Trusted Publisher config for @mapbox/mapbox-studio-default-fonts is bound to this workflow file and environment.
+    environment: npm-release
     steps:
       - uses: actions/checkout@v5
         with:
@@ -33,17 +35,15 @@ jobs:
         with:
           node-version: '24'
 
-      - uses: mapbox/gha@action-configure-codeartifact-credentials-v1
-        with:
-          repo-type: npm
-          access-type: write
+      - name: Upgrade npm for OIDC trusted publishing support
+        run: npm install -g npm@^11.5.1
 
       - name: Validate font_families.json
         run: node -e "require('./')"
 
-      # Uses CodeArtifact creds and git history
+      # Reads the current version from public npmjs and git history
       - id: version
-        uses: mapbox/gha@action-conventional-commit-version-v0
+        uses: mapbox/gha-public/action-conventional-commit-version@main
         with:
           before-sha: ${{ github.event.before }}
           after-sha: ${{ github.event.after }}
@@ -52,7 +52,7 @@ jobs:
         if: steps.version.outputs.skip != 'true'
         run: |
           npm version ${{ steps.version.outputs.version }} --no-git-tag-version
-          npm publish --tag ${{ steps.version.outputs.npm_publish_tag }}
+          npm publish --access public --tag ${{ steps.version.outputs.npm_publish_tag }}
 
       - id: release
         name: Create GitHub Release
