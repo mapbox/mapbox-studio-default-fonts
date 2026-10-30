@@ -5,7 +5,7 @@ Copyright information for each font is included in each folder in a file named `
 
 ## Publishing
 
-Pull Requests merged to `main` with conventional commit prefixes will automatically be published to AWS CodeArtifact (not npmjs) as new major/minor/patch versions (`feat!:`/`feat:`/`fix:` respectively). When using "Squash and merge", ensure your PR title includes the conventional commit prefix; a `BREAKING CHANGE:` footer only counts if it ends up in the squash commit's body. Release notes are generated as [GitHub Releases](https://github.com/mapbox/mapbox-studio-default-fonts/releases).
+Pull Requests merged to `main` with conventional commit prefixes will automatically be published to npmjs (via [Trusted Publishing](https://docs.npmjs.com/trusted-publishers), no token needed) as new major/minor/patch versions (`feat!:`/`feat:`/`fix:` respectively). When using "Squash and merge", ensure your PR title includes the conventional commit prefix; a `BREAKING CHANGE:` footer only counts if it ends up in the squash commit's body. Release notes are generated as [GitHub Releases](https://github.com/mapbox/mapbox-studio-default-fonts/releases).
 
 Examples:
 - `fix: corrected a font family name` -> patch
