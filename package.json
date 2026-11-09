@@ -3,6 +3,10 @@
   "version": "0.4.0",
   "description": "Default font library for Mapbox Studio.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/mapbox-studio-default-fonts.git"
+  },
   "scripts": {
     "build": "npm install --no-save mapnik@^4.5.9 && node bin/generate-font-families.js"
   },
